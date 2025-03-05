@@ -1,0 +1,24 @@
+{
+  "name": "chatbot_backend",
+  "version": "1.0.0",
+  "description": "Backend for AI chatbot with D-ID lip-sync video generation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Comzho",
+  "license": "MIT"
+}
